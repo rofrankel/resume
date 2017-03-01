@@ -1,0 +1,160 @@
+{
+  "basics": {
+    "name": "Richard Frankel",
+    "label": "",
+    "picture": "",
+    "email": "richard@frankel.tv",
+    "phone": "(424) 274-2427",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "120 W 97 St, APT 8B",
+      "postalCode": "10025",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "NY"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Google Fiber",
+      "position": "Tech Lead - WiFi",
+      "website": "https://fiber.google.com",
+      "startDate": "2015-01-01",
+      "endDate": "2017-02-15",
+      "summary": "Google Fiber builds its own routers and set top boxes.  My team was responsible for WiFi functionality and performance.",
+      "highlights": [
+        "Implemented bandsteering, discouraging 5 GHz-capabable devices not to use 2.4 GHz.  Decreased WiFi-related customer support call minutes by 15% and improved throughput by up to 50% (depending on client device type).",
+        "Enabled set top boxes to use WiFi rather than ethernet/coax for backhaul, enabling user self-install and saving hundreds of dollars per customer.",
+        "Built secure public guest networks using a cloud-based TOS captive portal.  This was crucial to our competitiveness in signing contracts with apartment buildings.",
+        "Executed platform bringup for Quantenna QSR1000 wifi chipset.",
+        "Managed Fiber's relationship with a team of contractors working on mesh topology optimization."
+      ]
+    },
+    {
+      "company": "Google Maps",
+      "position": "Tech Lead/Software Engineer",
+      "website": "https://maps.google.com",
+      "startDate": "2011-09-12",
+      "endDate": "2014-12-31",
+      "summary": "",
+      "highlights": [
+        "Tech lead for a team focused on optimizing internal crowdsourcing for changes to local data.",
+        "Designed and led implementation of an API for all user annotations on Maps (stars, reviews, etc.).",
+        "Designed and implemented a Bayesian smoothing algorithm for place ratings, lowering the minimum review threshold for showing aggregate scores from 10 reviews to 5 while also satisfying new product requirements.",
+        "Improved quality scoring of reviews enough to replacing chronological sorting.",
+        "Improved local review spam filtering, and improved spam infrastructure for many types of user content across Google."
+      ]
+    },
+    {
+      "company": "Track.com",
+      "position": "Founder and CTO",
+      "website": "https://track.com",
+      "startDate": "2009-02-01",
+      "endDate": "2012-12-31",
+      "summary": "Track.com is a subscription-based independent financial research platform.  It was sold to FX Concepts at the end of 2012.",
+      "highlights": [
+        "Developed and iterated on core business concept.",
+        "Managed team of contractors to build initial software platform.",
+        "Led team of contractors and interns in general platform development.",
+        "Wrote proprietary Flash-free cross-platform (IE6-compatible) charting library: https://rofrankel.github.io/sai/docs/",
+        "Wrote proprietary conference calling system integrated tightly with our web platform."
+      ]
+    },
+    {
+      "company": "NASA",
+      "position": "Intern - ACES Group",
+      "website": "https://ti.arc.nasa.gov/tech/asr/aces/",
+      "startDate": "2009-09-30",
+      "endDate": "2009-12-31",
+      "summary": "The Advanced Control and Evolvable Systems group is focused on biologically-inspired design and optimization techniques.",
+      "highlights": [
+        "Integrated generic algorithm with physical simulation software, for design of emitter for minimized Scanning Electron Microscope."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "position": "Intern",
+      "website": "https://microsoft.com",
+      "startDate": "2009-06-01",
+      "endDate": "2009-09-22",
+      "summary": "I was an intern on the team building the initial web-based implementation of Office.",
+      "highlights": [
+        "Developed reading view for Microsoft Word web app (now Office 365)."
+      ]
+    },
+    {
+      "company": "AMD",
+      "position": "Intern - Verification",
+      "website": "https://amd.com",
+      "startDate": "2007-06-01",
+      "endDate": "2007-09-15",
+      "summary": "The Verification team is responsible for validating the correctness of new chip designs.",
+      "highlights": [
+        "Implemented verification testing for Bulldozer processor core."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "area": "Computer Science - Artificial Intelligence",
+      "studyType": "MS",
+      "startDate": "2008-09-01",
+      "endDate": "2010-06-01",
+      "gpa": "4.08",
+      "courses": []
+    },
+    {
+      "institution": "Georgetown University",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "2004-08-01",
+      "endDate": "2008-05-01",
+      "gpa": "3.69",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Assisted Highway Lane Changing with RASCL",
+      "publisher": "Association for the Advancement of Artificial Intelligence",
+      "releaseDate": "2010-03-22",
+      "website": "rascl.pdf",
+      "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars."
+    }
+  ],
+  "skills": [],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Moderate"
+    },
+    {
+      "language": "Hebrew",
+      "fluency": "Moderate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Transhumanism",
+      "keywords": []
+    },
+    {
+      "name": "Competitive governance",
+      "keywords": []
+    },
+    {
+      "name": "Gaming (e.g. Starcraft, Hearthstone, Rocket League)",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
