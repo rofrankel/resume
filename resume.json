@@ -137,7 +137,7 @@
       "publisher": "AAAI Spring Symposium 2010",
       "releaseDate": "2010-03-22",
       "website": "https://github.com/rofrankel/resume/raw/master/rascl.pdf",
-      "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars."
+      "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars.  Many similar systems have since come to market."
     }
   ],
   "languages": [
