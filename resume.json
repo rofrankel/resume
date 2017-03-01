@@ -1,20 +1,15 @@
 {
   "basics": {
     "name": "Richard Frankel",
-    "label": "",
-    "picture": "",
     "email": "richard@frankel.tv",
     "phone": "(424) 274-2427",
-    "website": "",
-    "summary": "",
     "location": {
       "address": "120 W 97 St, APT 8B",
       "postalCode": "10025",
       "city": "New York",
       "countryCode": "US",
       "region": "NY"
-    },
-    "profiles": []
+    }
   },
   "work": [
     {
@@ -38,7 +33,6 @@
       "website": "https://maps.google.com",
       "startDate": "2011-09-12",
       "endDate": "2014-12-31",
-      "summary": "",
       "highlights": [
         "Tech lead for a team focused on optimizing internal crowdsourcing for changes to local data.",
         "Designed and led implementation of an API for all user annotations on Maps (stars, reviews, etc.).",
@@ -96,7 +90,6 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Stanford University",
@@ -104,8 +97,7 @@
       "studyType": "MS",
       "startDate": "2008-09-01",
       "endDate": "2010-06-01",
-      "gpa": "4.08",
-      "courses": []
+      "gpa": "4.08"
     },
     {
       "institution": "Georgetown University",
@@ -113,11 +105,9 @@
       "studyType": "BS",
       "startDate": "2004-08-01",
       "endDate": "2008-05-01",
-      "gpa": "3.69",
-      "courses": []
+      "gpa": "3.69"
     }
   ],
-  "awards": [],
   "publications": [
     {
       "name": "Assisted Highway Lane Changing with RASCL",
@@ -127,7 +117,6 @@
       "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars."
     }
   ],
-  "skills": [],
   "languages": [
     {
       "language": "English",
@@ -144,17 +133,13 @@
   ],
   "interests": [
     {
-      "name": "Transhumanism",
-      "keywords": []
+      "name": "Transhumanism"
     },
     {
-      "name": "Competitive governance",
-      "keywords": []
+      "name": "Competitive governance"
     },
     {
-      "name": "Gaming (e.g. Starcraft, Hearthstone, Rocket League)",
-      "keywords": []
+      "name": "Gaming (e.g. Starcraft, Hearthstone, Rocket League)"
     }
-  ],
-  "references": []
+  ]
 }
