@@ -51,6 +51,7 @@
       "highlights": [
         "Developed and iterated on core business concept.",
         "Managed team of contractors to build initial software platform.",
+        "Responsible for all devops (deployment, server configuration, backups, failover)",
         "Led a contractor and interns in general ongoing platform development.",
         "Wrote proprietary Flash-free cross-platform (IE6-compatible!) charting library (many exist now, but did not at the time): https://rofrankel.github.io/sai/docs/",
         "Wrote proprietary conference calling system integrated tightly with our web platform."
