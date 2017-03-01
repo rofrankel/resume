@@ -16,11 +16,11 @@
       "company": "Google Fiber",
       "position": "Tech Lead - WiFi",
       "website": "https://fiber.google.com",
-      "startDate": "2015-01-01",
-      "endDate": "2017-02-15",
+      "startDate": "2015-01",
+      "endDate": "2017-02",
       "summary": "Google Fiber builds its own routers and set top boxes.  My team was responsible for WiFi functionality and performance.",
       "highlights": [
-        "Implemented bandsteering, discouraging 5 GHz-capabable devices not to use 2.4 GHz.  Decreased WiFi-related customer support call minutes by 15% and improved throughput by up to 50% (depending on client device type).",
+        "Implemented bandsteering, 'encouraging' 5 GHz-capabable devices not to use 2.4 GHz.  Decreased WiFi-related customer support call minutes by 15% and improved throughput by up to 50% (depending on client device type).",
         "Enabled set top boxes to use WiFi rather than ethernet/coax for backhaul, enabling user self-install and saving hundreds of dollars per customer.",
         "Built secure public guest networks using a cloud-based TOS captive portal.  This was crucial to our competitiveness in signing contracts with apartment buildings.",
         "Executed platform bringup for Quantenna QSR1000 wifi chipset.",
@@ -31,8 +31,8 @@
       "company": "Google Maps",
       "position": "Tech Lead/Software Engineer",
       "website": "https://maps.google.com",
-      "startDate": "2011-09-12",
-      "endDate": "2014-12-31",
+      "startDate": "2011-09",
+      "endDate": "2014-12",
       "highlights": [
         "Tech lead for a team focused on optimizing internal crowdsourcing for changes to local data.",
         "Designed and led implementation of an API for all user annotations on Maps (stars, reviews, etc.).",
@@ -45,8 +45,8 @@
       "company": "Track.com",
       "position": "Founder and CTO",
       "website": "https://track.com",
-      "startDate": "2009-02-01",
-      "endDate": "2012-12-31",
+      "startDate": "2009-02",
+      "endDate": "2012-12",
       "summary": "Track.com is a subscription-based independent financial research platform.  It was sold to FX Concepts at the end of 2012.",
       "highlights": [
         "Developed and iterated on core business concept.",
@@ -57,36 +57,58 @@
       ]
     },
     {
-      "company": "NASA",
-      "position": "Intern - ACES Group",
+      "company": "NASA - ACES Group",
+      "position": "Intern",
       "website": "https://ti.arc.nasa.gov/tech/asr/aces/",
-      "startDate": "2009-09-30",
-      "endDate": "2009-12-31",
+      "startDate": "2009-09",
+      "endDate": "2009-12",
       "summary": "The Advanced Control and Evolvable Systems group is focused on biologically-inspired design and optimization techniques.",
       "highlights": [
-        "Integrated generic algorithm with physical simulation software, for design of emitter for minimized Scanning Electron Microscope."
+        "Integrated genetic algorithm with physical simulation software.  This was used to design an emitter for a minimized Scanning Electron Microscope intended for the Mars Rover."
       ]
     },
     {
       "company": "Microsoft",
       "position": "Intern",
       "website": "https://microsoft.com",
-      "startDate": "2009-06-01",
-      "endDate": "2009-09-22",
-      "summary": "I was an intern on the team building the initial web-based implementation of Office.",
+      "startDate": "2009-06",
+      "endDate": "2009-09",
+      "summary": "I was an intern on the team building the initial web-based implementation of Office (now Office 365).",
       "highlights": [
-        "Developed reading view for Microsoft Word web app (now Office 365)."
+        "Developed reading view for Microsoft Word web app."
+      ]
+    },
+    {
+      "company": "Goldman Sachs - Equities Technology",
+      "position": "Intern",
+      "website": "https://gs.com",
+      "startDate": "2007-06",
+      "endDate": "2007-09",
+      "summary": "The Post Execution Trading System team is responsible for logging and auditing of executed trades.",
+      "highlights": [
+        "Developed an extensible auditing framework for production PETS environments."
       ]
     },
     {
       "company": "AMD",
       "position": "Intern - Verification",
       "website": "https://amd.com",
-      "startDate": "2007-06-01",
-      "endDate": "2007-09-15",
+      "startDate": "2006-06",
+      "endDate": "2006-09",
       "summary": "The Verification team is responsible for validating the correctness of new chip designs.",
       "highlights": [
         "Implemented verification testing for Bulldozer processor core."
+      ]
+    },
+    {
+      "company": "Quigo Technologies",
+      "position": "Intern",
+      "startDate": "2005-06",
+      "endDate": "2005-09",
+      "summary": "Quigo Technologies was an advertising startup competing with Google's AdSense.  It was acquired by AOL in 2007.",
+      "highlights": [
+        "Created advertising mockups for potential new clients.",
+        "Replaced myself with a web app that allowed non-technical sales and customer support staff to generate mockups for potential new clients."
       ]
     }
   ],
@@ -95,25 +117,25 @@
       "institution": "Stanford University",
       "area": "Computer Science - Artificial Intelligence",
       "studyType": "MS",
-      "startDate": "2008-09-01",
-      "endDate": "2010-06-01",
+      "startDate": "2008-09",
+      "endDate": "2010-06",
       "gpa": "4.08"
     },
     {
       "institution": "Georgetown University",
       "area": "Computer Science",
       "studyType": "BS",
-      "startDate": "2004-08-01",
-      "endDate": "2008-05-01",
+      "startDate": "2004-08",
+      "endDate": "2008-05",
       "gpa": "3.69"
     }
   ],
   "publications": [
     {
       "name": "Assisted Highway Lane Changing with RASCL",
-      "publisher": "Association for the Advancement of Artificial Intelligence",
+      "publisher": "AAAI Spring Symposium 2010",
       "releaseDate": "2010-03-22",
-      "website": "rascl.pdf",
+      "website": "https://github.com/rofrankel/resume/raw/master/rascl.pdf",
       "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars."
     }
   ],
