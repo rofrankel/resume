@@ -18,12 +18,12 @@
       "website": "https://fiber.google.com",
       "startDate": "2015-01",
       "endDate": "2017-02",
-      "summary": "Google Fiber builds its own routers and set top boxes.  My team was responsible for WiFi functionality and performance.",
+      "summary": "Google Fiber builds its own WiFi routers and WiFi-capable set top boxes.  My team was responsible for WiFi functionality and performance.",
       "highlights": [
         "Implemented bandsteering, 'encouraging' 5 GHz-capabable devices not to use 2.4 GHz.  Decreased WiFi-related customer support call minutes by 15% and improved throughput by up to 50% (depending on client device type).",
         "Enabled set top boxes to use WiFi rather than ethernet/coax for backhaul, making user self-install possible and saving hundreds of dollars per customer.",
         "Built secure public guest networks using a cloud-based TOS captive portal.  This was crucial to our competitiveness in signing contracts with apartment buildings.",
-        "Executed platform bringup for Quantenna QSR1000 wifi chipset.",
+        "Executed platform bringup for Quantenna QSR1000 WiFi chipset, which was the foundation of the newest generation of Fiber devices.",
         "Managed Fiber's relationship with a team of contractors working on mesh topology optimization."
       ]
     },
