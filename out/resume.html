@@ -1,0 +1,508 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Richard Frankel</title>
+        <style>
+            body {
+            	background: #fff;
+            	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+            	line-height: 1.4;
+            	margin: 0 0;
+            	margin-bottom: 100px;
+            }
+            em {
+            	color: #999;
+            }
+            p {
+            	line-height: 1.6;
+            	font-size: 90%;
+            }
+            
+            a {
+            	color: #2C85B1;
+            	text-decoration: none;
+            	font-weight: 400;
+            }
+            ul {
+            	margin-bottom: 0;
+            }
+            section {
+            	margin: 1em 0 2em;
+            }
+            blockquote {
+            	margin: 0;
+            	margin-bottom: 1em;
+            }
+            #resume {
+            	margin: 2em 2em 2em 2.5em;
+            	max-width: 760px;
+            }
+            
+            /* Resume heading */
+            .heading header { 
+            
+            }
+            
+            .heading header h1 {
+            	font-size: 180%;
+            	margin: 0.5em 0;
+            	font-weight: 600;
+            }
+            
+            .heading header h2 {
+            	font-size: 140%;
+            	margin: 0;
+            	font-weight: 400;
+            }
+            
+            .heading header .contact .detail {
+            	margin: 0 1em 0 0;
+            }
+            
+            .profile {
+            	display: inline-block;
+            	margin: 0 1em 0 0;
+            }
+            
+            .profile strong,
+            .profile span {
+            	display: inline-block;
+            	margin: 0 1em 0 0;
+            }
+            /* section / line breaks */
+            section h2 {
+            	font-size: 140%;
+            	margin: 0 0 1em;
+            	text-transform: uppercase;
+            	color: #BC1B39;
+            	font-weight: 400;
+            }
+            
+            /* Experience items */
+            .item {
+            	margin: 0 0 1em;
+            	padding: 0 0 1em;
+            	border-bottom: 1px solid #F2EBEC;
+            }
+            
+            .item:last-child {
+            	border-bottom: none;
+            }
+            
+            
+            .item header h3 {
+            	margin: 0.2em 1em 0.2em 0;
+            	display: inline-block;
+            	font-weight: 600;
+            }
+            
+            .item header a {
+            	display: inline-block;
+            }
+            
+            .item .position {
+            	font-weight: 600;
+            	font-size: 100%;
+            	margin: 0.2em 1em 0.2em 0;
+            }
+            
+            .item .startDate,
+            .item .endDate {
+            	color: #6B6B6B;
+            }
+            
+            .item .highlights {
+            	list-style: square;
+            	font-size: 90%;
+            }
+            
+            /* skills */
+            #skills .item {
+            	margin: 0.5em 0;
+            	padding: 0 0 0.5em;
+            	font-size: 90%;
+            }
+            
+            #skills .item .name {
+            	font-weight: 600;
+            	display: inline-block;
+            	text-transform: uppercase;
+            	margin: 0 1em 0 0;
+            	width: 23%;
+            	vertical-align: top;
+            }
+            
+            #skills .item .keywords {
+            	display: inline-block;
+            	width: 70%;
+            	vertical-align: top;
+            }
+            
+            /* education */
+            #education .item {
+            	display: inline-block;
+            	vertical-align: top;
+            	width: 49.5%;
+            	border-bottom: 0;
+            }
+        </style>
+        <style media="print">
+            body { font-size: 12px; }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'
+        rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        <div id="resume">
+            <section class="heading">
+                <header>
+                    	<h1>Richard Frankel</h1>
+
+                    <div class="contact">	<span class="detail">
+					<a href="mailto:richard@frankel.tv">richard@frankel.tv</a>
+				</span>
+	<span class="detail">
+					(424) 274-2427
+				</span>
+
+                    </div>
+                </header>
+            </section>
+            <section class="experience">
+                	<h2>Experience</h2>
+
+                <section class="item">
+                    <header>
+                        	<h3 class="name">Google Fiber</h3>
+
+                    </header>	<span class="position">
+				Tech Lead - WiFi
+			</span>
+	<span class="startDate">
+				Dec 2014
+			</span>
+	<span class="endDate">
+				- Jan 2017
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>Google Fiber builds its own routers and set top boxes. My team was responsible
+                                for WiFi functionality and performance.</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Implemented bandsteering, &#x27;encouraging&#x27; 5 GHz-capabable devices
+                            not to use 2.4 GHz. Decreased WiFi-related customer support call minutes
+                            by 15% and improved throughput by up to 50% (depending on client device
+                            type).</li>
+                        <li>Enabled set top boxes to use WiFi rather than ethernet/coax for backhaul,
+                            enabling user self-install and saving hundreds of dollars per customer.</li>
+                        <li>Built secure public guest networks using a cloud-based TOS captive portal.
+                            This was crucial to our competitiveness in signing contracts with apartment
+                            buildings.</li>
+                        <li>Executed platform bringup for Quantenna QSR1000 wifi chipset.</li>
+                        <li>Managed Fiber&#x27;s relationship with a team of contractors working on
+                            mesh topology optimization.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">Google Maps</h3>
+
+                    </header>	<span class="position">
+				Tech Lead/Software Engineer
+			</span>
+	<span class="startDate">
+				Aug 2011
+			</span>
+	<span class="endDate">
+				- Nov 2014
+			</span>
+
+                    <ul class="highlights">
+                        <li>Tech lead for a team focused on optimizing internal crowdsourcing for
+                            changes to local data.</li>
+                        <li>Designed and led implementation of an API for all user annotations on
+                            Maps (stars, reviews, etc.).</li>
+                        <li>Designed and implemented a Bayesian smoothing algorithm for place ratings,
+                            lowering the minimum review threshold for showing aggregate scores from
+                            10 reviews to 5 while also satisfying new product requirements.</li>
+                        <li>Improved quality scoring of reviews enough to replacing chronological
+                            sorting.</li>
+                        <li>Improved local review spam filtering, and improved spam infrastructure
+                            for many types of user content across Google.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">Track.com</h3>
+
+                    </header>	<span class="position">
+				Founder and CTO
+			</span>
+	<span class="startDate">
+				Jan 2009
+			</span>
+	<span class="endDate">
+				- Nov 2012
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>Track.com is a subscription-based independent financial research platform.
+                                It was sold to FX Concepts at the end of 2012.</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Developed and iterated on core business concept.</li>
+                        <li>Managed team of contractors to build initial software platform.</li>
+                        <li>Led a contractor and interns in general ongoing platform development.</li>
+                        <li>Wrote proprietary Flash-free cross-platform (IE6-compatible!) charting
+                            library (many exist now, but did not at the time): <a href="https://rofrankel.github.io/sai/docs/">https://rofrankel.github.io/sai/docs/</a>
+                        </li>
+                        <li>Wrote proprietary conference calling system integrated tightly with our
+                            web platform.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">NASA - ACES Group</h3>
+
+                    </header>	<span class="position">
+				Intern
+			</span>
+	<span class="startDate">
+				Aug 2009
+			</span>
+	<span class="endDate">
+				- Nov 2009
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>The Advanced Control and Evolvable Systems group is focused on biologically-inspired
+                                design and optimization techniques.</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Integrated genetic algorithm with physical simulation software. This was
+                            used to design an emitter for a minimized Scanning Electron Microscope
+                            intended for the Mars Rover.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">Microsoft</h3>
+
+                    </header>	<span class="position">
+				Intern
+			</span>
+	<span class="startDate">
+				May 2009
+			</span>
+	<span class="endDate">
+				- Aug 2009
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>I was an intern on the team building the initial web-based implementation
+                                of Office (now Office 365).</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Developed reading view for Microsoft Word web app.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">Goldman Sachs - Equities Technology</h3>
+
+                    </header>	<span class="position">
+				Intern
+			</span>
+	<span class="startDate">
+				May 2007
+			</span>
+	<span class="endDate">
+				- Aug 2007
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>The Post Execution Trading System team is responsible for logging and
+                                auditing of executed trades.</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Developed an extensible auditing framework for production PETS environments.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">AMD</h3>
+
+                    </header>	<span class="position">
+				Intern - Verification
+			</span>
+	<span class="startDate">
+				May 2006
+			</span>
+	<span class="endDate">
+				- Aug 2006
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>The Verification team is responsible for validating the correctness of
+                                new chip designs.</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Implemented verification testing for Bulldozer processor core.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <header>
+                        	<h3 class="name">Quigo Technologies</h3>
+
+                    </header>	<span class="position">
+				Intern
+			</span>
+	<span class="startDate">
+				May 2005
+			</span>
+	<span class="endDate">
+				- Aug 2005
+			</span>
+
+                    <div class="summary">
+                        <p>
+                            <p>Quigo Technologies was an advertising startup competing with Google&#39;s
+                                AdSense. It was acquired by AOL in 2007.</p>
+                        </p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Created advertising mockups for potential new clients.</li>
+                        <li>Replaced myself with a web app that allowed non-technical sales and customer
+                            support staff to generate mockups for potential new clients.</li>
+                    </ul>
+                </section>
+            </section>
+            <section id="education">
+                	<h2>Education</h2>
+
+                <div class="item">
+                    <header>
+                        	<h3 class="name">Stanford University</h3>
+
+                    </header>
+                    <div class="dates">	<span class="startDate">
+					Aug 2008
+				</span>
+	<span class="endDate">
+					- May 2010
+				</span>
+
+                    </div>
+                    <div class="qualification">	<span class="studyType">
+					MS
+				</span>
+	<span class="area">
+					- Computer Science - Artificial Intelligence
+				</span>
+
+                        <br />	<span class="gpa">
+					GPA: 4.08
+				</span>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <header>
+                        	<h3 class="name">Georgetown University</h3>
+
+                    </header>
+                    <div class="dates">	<span class="startDate">
+					Jul 2004
+				</span>
+	<span class="endDate">
+					- Apr 2008
+				</span>
+
+                    </div>
+                    <div class="qualification">	<span class="studyType">
+					BS
+				</span>
+	<span class="area">
+					- Computer Science
+				</span>
+
+                        <br />	<span class="gpa">
+					GPA: 3.69
+				</span>
+
+                    </div>
+                </div>
+            </section>
+            <section id="publications">
+                	<h2>Publications</h2>
+
+                <div class="item">
+                    <div class="name">Assisted Highway Lane Changing with RASCL</div>
+                    <div class="publisher">AAAI Spring Symposium 2010</div>
+                    <div class="releaseDate">2010-03-22</div>
+                    <div class="website">	<a href="https://github.com/rofrankel/resume/raw/master/rascl.pdf">Link</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Guidance system for human drivers of sensor-equipped cars. LED- and sound-based
+                            alerts before dangerous lane changes, and speed change recommendations
+                            for safer lane changes given positions and velocities of nearby cars.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="languages">
+                	<h2>Languages</h2>
+
+                <div class="item">
+                    <div class="language">English</div>
+                    <div class="fluency">	<em>Native speaker</em>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="language">Italian</div>
+                    <div class="fluency">	<em>Moderate</em>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="language">Hebrew</div>
+                    <div class="fluency">	<em>Moderate</em>
+
+                    </div>
+                </div>
+            </section>
+            <section id="interests">
+                	<h2>Interests</h2>
+
+                <div class="item">
+                    <div class="name">Transhumanism</div>
+                </div>
+                <div class="item">
+                    <div class="name">Competitive governance</div>
+                </div>
+                <div class="item">
+                    <div class="name">Gaming (e.g. Starcraft, Hearthstone, Rocket League)</div>
+                </div>
+            </section>
+        </div>
+    </body>
+
+</html>
