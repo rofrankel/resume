@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Run ./build before committing.
+if ./build; then
+    echo "Rebuilding resume before committing"
+    git add index.html
+    exit 0
+else
+    echo "Build failed"
+    exit 1
+fi
