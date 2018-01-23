@@ -1,168 +1,178 @@
 {
-  "basics": {
-    "name": "Richard Frankel",
-    "email": "richard@frankel.tv",
-    "phone": "(424) 274-2427",
-    "location": {
-      "address": "120 W 97 St, APT 8B",
-      "postalCode": "10025",
-      "city": "New York",
-      "countryCode": "US",
-      "region": "NY"
-    }
-  },
-  "work": [
+    "basics":
     {
-      "company": "Google Fiber",
-      "position": "Tech Lead - WiFi",
-      "website": "https://fiber.google.com",
-      "startDate": "2015-01",
-      "endDate": "2017-02",
-      "summary": "Google Fiber builds its own WiFi routers and WiFi-capable set top boxes.  My team was responsible for WiFi functionality and performance.",
-      "highlights": [
-        "Implemented bandsteering, 'encouraging' 5 GHz-capabable devices not to use 2.4 GHz.  Decreased WiFi-related customer support call minutes by 15% and improved throughput by up to 50% (depending on client device type).",
-        "Led project enabling set top boxes to use WiFi rather than ethernet/coax for backhaul, making user self-install possible and saving hundreds of dollars per customer.",
-        "Led team to build secure public guest networks using a cloud-based TOS captive portal.  This was crucial to our competitiveness in signing contracts with apartment buildings.",
-        "Executed platform bringup for Quantenna QSR1000 WiFi chipset, which was the foundation of the newest generation of Fiber devices.",
-        "Managed Fiber's relationship with a team of contractors working on mesh topology optimization - wrote specs and integration designs, collaborated with contractors on test plans, hosted biweekly status meetings, etc."
-      ]
+        "name": "Richard Frankel",
+        "email": "richard@frankel.tv",
+        "phone": "(424) 274-2427",
+        "location":
+        {
+            "address": "120 W 97 St, APT 8B",
+            "postalCode": "10025",
+            "city": "New York",
+            "countryCode": "US",
+            "region": "NY"
+        }
+    },
+    "work": [
+    {
+        "company": "Google - Structured Search Quality & Infrastructure",
+        "position": "Senior Software Engineer",
+        "website": "https://google.com",
+        "startDate": "2017-07",
+        "summary": "Internal generic search infrastructure for Google products",
+        "highlights": [
+            "Designed novel approach to crowding, which increases search result diversity.",
+            "Implemented resource usage instrumentation, with monitoring/dashboards for team and clients.",
+            "Enabled clients such as YouTube to generate training data in real time, rather than using day-old stale data.",
+            "Implemented failover for features unsupported by storage backends, reducing leaky abstraction."
+        ]
     },
     {
-      "company": "Google Maps",
-      "position": "Tech Lead/Software Engineer",
-      "website": "https://maps.google.com",
-      "startDate": "2011-09",
-      "endDate": "2014-12",
-      "summary": "Google Maps has a wide variety of data challenges.  I applied machine learning and crowdsourcing to solving some of these problems, while also building related infrastructure.",
-      "highlights": [
-        "Tech lead for a team focused on optimizing internal crowdsourcing for changes to local data.",
-        "Designed and led implementation of the API for all user annotations on Maps (stars, reviews, etc.), which now serves several million requests per day.",
-        "Designed and implemented a Bayesian smoothing algorithm for place ratings, lowering the minimum review threshold for showing aggregate scores from ten reviews to five while also satisfying new product requirements.",
-        "Improved quality scoring of reviews enough to be able to sort reviews by quality by default, rather than by date.",
-        "Made local review spam filtering more effective, and improved spam infrastructure for many types of user content across Google."
-      ]
+        "company": "Google Fiber",
+        "position": "Tech Lead - WiFi",
+        "website": "https://fiber.google.com",
+        "startDate": "2015-01",
+        "endDate": "2017-02",
+        "summary": "Google Fiber builds its own WiFi routers and WiFi-capable set top boxes.  My team was responsible for WiFi functionality and performance.",
+        "highlights": [
+            "Implemented bandsteering, 'encouraging' 5 GHz-capabable devices not to use 2.4 GHz.  Decreased WiFi-related customer support call minutes by 15% and improved throughput by up to 50% (depending on client device type).",
+            "Led project enabling set top boxes to use WiFi rather than ethernet/coax for backhaul, making user self-install possible and saving hundreds of dollars per customer.",
+            "Led team to build secure public guest networks using a cloud-based TOS captive portal.  This was crucial to our competitiveness in signing contracts with apartment buildings.",
+            "Executed platform bringup for Quantenna QSR1000 WiFi chipset, which was the foundation of the newest generation of Fiber devices.",
+            "Managed Fiber's relationship with a team of contractors working on mesh topology optimization - wrote specs and integration designs, collaborated with contractors on test plans, hosted biweekly status meetings, etc."
+        ]
     },
     {
-      "company": "Track.com",
-      "position": "Founder and CTO",
-      "website": "https://track.com",
-      "startDate": "2009-02",
-      "endDate": "2012-12",
-      "summary": "Track.com is a subscription-based independent financial research platform.  It was sold to FX Concepts in December of 2012.",
-      "highlights": [
-        "Developed and iterated on core business concept.",
-        "Managed contractors and interns to build core software platform.",
-        "Responsible for all devops (deployment, server configuration, backups, failover)",
-        "Wrote a proprietary Flash-free cross-platform (IE6-compatible!) charting library (many exist now, but did not when I wrote it in 2010): https://rofrankel.github.io/sai/docs/",
-        "Wrote a conference calling system that was integrated tightly with our web platform, automatically authenticating and routing callers by event registration and phone number."
-      ]
+        "company": "Google Maps",
+        "position": "Tech Lead/Software Engineer",
+        "website": "https://maps.google.com",
+        "startDate": "2011-09",
+        "endDate": "2014-12",
+        "summary": "Google Maps has a wide variety of data challenges.  I applied machine learning and crowdsourcing to solving some of these problems, while also building related infrastructure.",
+        "highlights": [
+            "Tech lead for a team focused on optimizing internal crowdsourcing for changes to local data.",
+            "Designed and led implementation of the API for all user annotations on Maps (stars, reviews, etc.), which now serves several million requests per day.",
+            "Designed and implemented a Bayesian smoothing algorithm for place ratings, lowering the minimum review threshold for showing aggregate scores from ten reviews to five while also satisfying new product requirements.",
+            "Improved quality scoring of reviews enough to be able to sort reviews by quality by default, rather than by date.",
+            "Made local review spam filtering more effective, and improved spam infrastructure for many types of user content across Google."
+        ]
     },
     {
-      "company": "NASA",
-      "position": "Intern - ACES Group",
-      "website": "https://ti.arc.nasa.gov/tech/asr/aces/",
-      "startDate": "2009-09",
-      "endDate": "2009-12",
-      "summary": "NASA's Advanced Control and Evolvable Systems group is focused on biologically-inspired design and optimization techniques.",
-      "highlights": [
-        "Integrated genetic algorithm with physical simulation software.  This was used to design an emitter for a minimized Scanning Electron Microscope for the Mars Rover."
-      ]
+        "company": "Track.com",
+        "position": "Founder and CTO",
+        "website": "https://track.com",
+        "startDate": "2009-02",
+        "endDate": "2012-12",
+        "summary": "Track.com is a subscription-based independent financial research platform.  It was sold to FX Concepts in December of 2012.",
+        "highlights": [
+            "Developed and iterated on core business concept.",
+            "Managed contractors and interns to build core software platform.",
+            "Responsible for all devops (deployment, server configuration, backups, failover)",
+            "Wrote a proprietary Flash-free cross-platform (IE6-compatible!) charting library (many exist now, but did not when I wrote it in 2010): https://rofrankel.github.io/sai/docs/",
+            "Wrote a conference calling system that was integrated tightly with our web platform, automatically authenticating and routing callers by event registration and phone number."
+        ]
     },
     {
-      "company": "Microsoft",
-      "position": "Intern - Office",
-      "website": "https://microsoft.com",
-      "startDate": "2009-06",
-      "endDate": "2009-09",
-      "summary": "The Office web apps (now Office 365) are web-based implementations of the Office suite.",
-      "highlights": [
-        "Developed two-page reading view for Microsoft Word web app."
-      ]
+        "company": "NASA",
+        "position": "Intern - ACES Group",
+        "website": "https://ti.arc.nasa.gov/tech/asr/aces/",
+        "startDate": "2009-09",
+        "endDate": "2009-12",
+        "summary": "NASA's Advanced Control and Evolvable Systems group is focused on biologically-inspired design and optimization techniques.",
+        "highlights": [
+            "Integrated genetic algorithm with physical simulation software.  This was used to design an emitter for a minimized Scanning Electron Microscope for the Mars Rover."
+        ]
     },
     {
-      "company": "Goldman Sachs",
-      "position": "Intern - Equities Technology - PETS",
-      "website": "https://gs.com",
-      "startDate": "2007-06",
-      "endDate": "2007-09",
-      "summary": "The Post Execution Trading System team is responsible for logging and auditing executed trades.",
-      "highlights": [
-        "Developed an extensible auditing framework for production PETS environments."
-      ]
+        "company": "Microsoft",
+        "position": "Intern - Office",
+        "website": "https://microsoft.com",
+        "startDate": "2009-06",
+        "endDate": "2009-09",
+        "summary": "The Office web apps (now Office 365) are web-based implementations of the Office suite.",
+        "highlights": [
+            "Developed two-page reading view for Microsoft Word web app."
+        ]
     },
     {
-      "company": "AMD",
-      "position": "Intern - Verification",
-      "website": "https://amd.com",
-      "startDate": "2006-06",
-      "endDate": "2006-09",
-      "summary": "The Verification team is responsible for validating the correctness of new chip designs.",
-      "highlights": [
-        "Implemented verification testing for Bulldozer processor core."
-      ]
+        "company": "Goldman Sachs",
+        "position": "Intern - Equities Technology - PETS",
+        "website": "https://gs.com",
+        "startDate": "2007-06",
+        "endDate": "2007-09",
+        "summary": "The Post Execution Trading System team is responsible for logging and auditing executed trades.",
+        "highlights": [
+            "Developed an extensible auditing framework for production PETS environments."
+        ]
     },
     {
-      "company": "Quigo Technologies",
-      "position": "Intern",
-      "startDate": "2005-06",
-      "endDate": "2005-09",
-      "summary": "Quigo Technologies was an advertising startup competing with Google's AdSense.  It was acquired by AOL in 2007.",
-      "highlights": [
-        "Created advertising mockups for prospective customers.",
-        "Replaced myself with a web app that allowed non-technical sales and customer support staff to generate mockups for prospective customers."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Stanford University",
-      "area": "Computer Science - Artificial Intelligence",
-      "studyType": "MS",
-      "startDate": "2008-09",
-      "endDate": "2010-06",
-      "gpa": "4.08"
+        "company": "AMD",
+        "position": "Intern - Verification",
+        "website": "https://amd.com",
+        "startDate": "2006-06",
+        "endDate": "2006-09",
+        "summary": "The Verification team is responsible for validating the correctness of new chip designs.",
+        "highlights": [
+            "Implemented verification testing for Bulldozer processor core."
+        ]
     },
     {
-      "institution": "Georgetown University",
-      "area": "Computer Science (Hebrew and Philosophy minors)",
-      "studyType": "BS",
-      "startDate": "2004-08",
-      "endDate": "2008-05",
-      "gpa": "3.69"
-    }
-  ],
-  "publications": [
+        "company": "Quigo Technologies",
+        "position": "Intern",
+        "startDate": "2005-06",
+        "endDate": "2005-09",
+        "summary": "Quigo Technologies was an advertising startup competing with Google's AdSense.  It was acquired by AOL in 2007.",
+        "highlights": [
+            "Created advertising mockups for prospective customers.",
+            "Replaced myself with a web app that allowed non-technical sales and customer support staff to generate mockups for prospective customers."
+        ]
+    }],
+    "education": [
     {
-      "name": "Assisted Highway Lane Changing with RASCL",
-      "publisher": "AAAI Spring Symposium 2010",
-      "releaseDate": "2010-03-22",
-      "website": "https://github.com/rofrankel/resume/raw/master/rascl.pdf",
-      "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars.  Many similar systems have since come to market."
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
+        "institution": "Stanford University",
+        "area": "Computer Science - Artificial Intelligence",
+        "studyType": "MS",
+        "startDate": "2008-09",
+        "endDate": "2010-06",
+        "gpa": "4.08"
     },
     {
-      "language": "Italian",
-      "fluency": "Moderate"
+        "institution": "Georgetown University",
+        "area": "Computer Science (Hebrew and Philosophy minors)",
+        "studyType": "BS",
+        "startDate": "2004-08",
+        "endDate": "2008-05",
+        "gpa": "3.69"
+    }],
+    "publications": [
+    {
+        "name": "Assisted Highway Lane Changing with RASCL",
+        "publisher": "AAAI Spring Symposium 2010",
+        "releaseDate": "2010-03-22",
+        "website": "https://github.com/rofrankel/resume/raw/master/rascl.pdf",
+        "summary": "Guidance system for human drivers of sensor-equipped cars.  LED- and sound-based alerts before dangerous lane changes, and speed change recommendations for safer lane changes given positions and velocities of nearby cars.  Many similar systems have since come to market."
+    }],
+    "languages": [
+    {
+        "language": "English",
+        "fluency": "Native speaker"
     },
     {
-      "language": "Hebrew",
-      "fluency": "Moderate"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Transhumanism"
+        "language": "Italian",
+        "fluency": "Moderate"
     },
     {
-      "name": "Competitive governance"
+        "language": "Hebrew",
+        "fluency": "Moderate"
+    }],
+    "interests": [
+    {
+        "name": "Transhumanism"
     },
     {
-      "name": "Gaming (e.g. Starcraft, Hearthstone, Rocket League)"
-    }
-  ]
+        "name": "Competitive governance"
+    },
+    {
+        "name": "Gaming (e.g. Starcraft, Hearthstone, Rocket League)"
+    }]
 }
