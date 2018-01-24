@@ -18,8 +18,8 @@
         "company": "Google - Structured Search Quality & Infrastructure",
         "position": "Senior Software Engineer",
         "website": "https://google.com",
-        "startDate": "2017-07",
-        "summary": "Internal generic search infrastructure for Google products",
+        "startDate": "2017-07-01",
+        "summary": "ST is internal search infrastructure for Google products.  I do generic infrastructure work, with a focus on search quality infrastructure.",
         "highlights": [
             "Designed novel approach to crowding, which increases search result diversity.",
             "Implemented resource usage instrumentation, with monitoring/dashboards for team and clients.",
